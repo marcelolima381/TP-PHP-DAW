@@ -1603,11 +1603,22 @@ pre code {
     width: 1170px;
   }
 }
-.container-fluid {
-  padding-right: 60px;
-  padding-left: 60px;
-  margin-right: auto;
-  margin-left: auto;
+@media (max-width: 1199px) {
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        paddin-right: 60px;
+        padding-left: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 .row {
   margin-right: -15px;
